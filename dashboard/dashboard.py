@@ -3,11 +3,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #get data
-most_soldyear = pd.read_csv("most_sold_items_by_year.csv")
+most_soldyear = pd.read_csv("https://github.com/karna0811-bd/dicoding-assessment/blob/main/dashboard/most_sold_items_by_year.csv")
 dfyear = pd.DataFrame(most_soldyear)
-most_soldmonthly = pd.read_csv("most_sold_items_by_month.csv")
+most_soldmonthly = pd.read_csv("https://github.com/karna0811-bd/dicoding-assessment/blob/main/dashboard/most_sold_items_by_month.csv")
 dfmonth = pd.DataFrame(most_soldmonthly)
-payment = pd.read_csv("payments_type.csv")
+payment = pd.read_csv("https://github.com/karna0811-bd/dicoding-assessment/blob/main/dashboard/payments_type.csv")
 payment_type_df = pd.DataFrame(payment) 
 
 st.title('Sales Dashboard')
