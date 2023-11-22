@@ -1,0 +1,5 @@
+,payment_type,count,rank
+0,credit_card,85523,1.0
+1,boleto,22542,2.0
+2,voucher,6155,3.0
+3,debit_card,1658,4.0
